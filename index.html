@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/fonts/fontawesome-free-6.3.0-web/css/all.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Music Player</title>
+</head>
+
+<body>
+    <div class="player">
+        <div class="dashboard" id="dashboard">
+            <div class="cd">
+                <img src="./assets/img/lan-man.jpg" class="cd-thumb">
+            </div>
+            
+            <div class="info">
+                <h2>Lan Man</h2>
+                <h5>Ronboogz</h5>
+            </div>
+    
+            <div class="control">
+                <div class="btn btn-repeat">
+                    <i class="fas fa-redo"></i>
+                </div>
+    
+                <div class="btn btn-prev">
+                    <i class="fas fa-step-backward"></i>
+                </div>
+                
+                <div class="btn btn-toggle-play">
+                    <i class="fas fa-play icon-play"></i>
+                    <i class="fas fa-pause icon-pause"></i>
+                </div>
+    
+                <div class="btn btn-next">
+                    <i class="fas fa-step-forward"></i>
+                </div>
+    
+                <div class="btn btn-random">
+                    <i class="fas fa-random"></i>
+                </div>
+            </div>
+    
+            <input type="range" id="progress" class="progress" value="0" step="1" min="0" max="100">
+    
+            <audio src="" id="audio"></audio>
+        </div>
+
+        <div class="playlist"></div>
+    </div>
+
+
+
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
