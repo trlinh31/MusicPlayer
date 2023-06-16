@@ -16,9 +16,9 @@ body {
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    /* background-color: #fafafa; */
     background-image: linear-gradient(to left, #FDC830, #F37335);
     scroll-behavior: smooth;
+    padding: 0 10px;
 }
 
 .player {
