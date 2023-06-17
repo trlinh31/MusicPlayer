@@ -21,6 +21,18 @@ const app = {
     isRepeat: false,
     songs: [
         {
+            name: 'C.L.M.E',
+            singer: 'Hoàng Tôn - Andree Right Hand',
+            path: './assets/music/clme.mp3',
+            image: './assets/img/clme.jpg'
+        },
+        {
+            name: 'Cô Gái Này Là Của Ai',
+            singer: 'KxR - Nhi Nhi',
+            path: './assets/music/co-gai-nay-la-cua-ai.mp3',
+            image: './assets/img/co-gai-nay-la-cua-ai.jfif'
+        },
+        {
             name: 'Lan Man',
             singer: 'Ronboogz',
             path: './assets/music/lan-man.mp3',
